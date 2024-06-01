@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cuisine connect</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Cuisine connect</h1>
+    </div>
+
+<div class="container">
+        <div class="item-container">
+            <h2>Briyani</h2>
+            <h3>xxxxxxx</h3>
+            <h4>Savor the regal flavors of our Dindal Punjabi Chicken Biryani, a luxurious blend of aromatic basmati rice and tender chicken pieces,
+                 infused with a rich medley of Indian spices. This classic dish is layered with caramelized onions, fresh herbs, and a hint of saffron,
+                  ensuring a burst of flavor in every bite. Served with cooling raita and tangy pickle, 
+                our Dindal Punjabi offers a truly majestic dining experience.</h4>
+                <button id="one" onclick="clearing(event)"><b><i>Close</i></b></button>
+        </div>
+</div>
+    <div class="popup-overlay">
+        </div>
+
+    <div class="popup">
+        <h2>Add Food</h2>
+        <form>
+            <h2><input type="text" placeholder="Food Name" id="food-name"></h2>
+            <h3><input type="text" placeholder="Author Name" id="food-author"></h3>
+            <textarea placeholder="Short Description" id="food-description"></textarea>
+
+        <button id="add-food"><b><i>Add</i></b></button>
+        <button id="cancel-food" onclick="clearfood(event)"><b><i>Cancel</i></b></button>
+        </form>
+        
+
+
+    </div>
+
+
+<button class="addpopup-button" id="popup-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
